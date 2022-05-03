@@ -1,6 +1,12 @@
 import React from 'react'
-import { styled, alpha } from '@mui/material/styles';
-import { Button, Card, CardActions, CardContent, CardMedia, Container, Typography } from '@mui/material';
+import { styled} from '@mui/material/styles';
+import { 
+    Button, 
+    Card, 
+    CardActions, 
+    CardContent, 
+    CardMedia,
+    Typography } from '@mui/material';
 
 const CardWrapper = styled(Card)`
 margin-bottom: 50px;
@@ -8,6 +14,7 @@ margin-bottom: 50px;
 
 const MediaImage = styled(CardMedia)(({theme}) => ({
     height: '250px',
+   
     
 
     [theme.breakpoints.down('sm')]: {
@@ -25,8 +32,8 @@ const Post = () => {
         </CardContent>
 
         <CardActions>
-            <Button size='small' color='primary' >Share</Button>
-            <Button size='small' color='primary'>Learn More</Button>
+            <Button size='small'sx={{color:'#ce7067da', fontWeight:'bold'}} >Share</Button>
+            <Button size='small'sx={{color:'#ce7067da', fontWeight:'bold'}}>Learn More</Button>
         </CardActions>
        
 

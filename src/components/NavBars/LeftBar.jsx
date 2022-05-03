@@ -1,11 +1,10 @@
 import React from 'react';
 import { 
     Container, 
-    Link, 
     Typography
 } from '@mui/material';
-import { styled, alpha } from '@mui/material/styles';
-import { Box, typography } from '@mui/system';
+import { styled} from '@mui/material/styles';
+import { Box } from '@mui/system';
 import { 
     Apps, 
     CameraAlt, 

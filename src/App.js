@@ -1,11 +1,11 @@
  import { Grid } from '@mui/material';
 import React from 'react'
-import Feed from './components/NavBar/Feed';
-import LeftBar from './components/NavBar/LeftBar';
-import NavBar from './components/NavBar/NavBar';
-import { styled, alpha } from '@mui/material/styles';
-import RightBar from './components/NavBar/RightBar';
-import AddIcon from './components/NavBar/Add';
+import Feed from './components/Feed/Feed';
+import LeftBar from './components/NavBars/LeftBar';
+import NavBar from './components/NavBars/NavBar';
+import { styled} from '@mui/material/styles';
+import RightBar from './components/NavBars/RightBar';
+import AddIcon from './components/CreateStory/Add';
 
 
 
