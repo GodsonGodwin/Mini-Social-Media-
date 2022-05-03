@@ -20,10 +20,12 @@ import {
 
 
 const LeftBarContent = styled(Container)(({theme}) => ({
-    padding: theme.spacing(10),
     backgroundColor: '#e2b2aece;',
     color: 'white',
     height: '100vh',
+    paddingTop: theme.spacing(10),
+    position:'sticky',
+    top: '0',
     
 
     [theme.breakpoints.up('sm')]: {
