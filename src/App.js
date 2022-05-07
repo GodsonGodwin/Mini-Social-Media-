@@ -6,6 +6,8 @@ import NavBar from './components/NavBars/NavBar';
 import { styled} from '@mui/material/styles';
 import RightBar from './components/NavBars/RightBar';
 import AddIcon from './components/CreateStory/Add';
+import Loader from './components/Loader/Loader';
+
 
 
 
@@ -29,8 +31,10 @@ function App() {
         <Grid item sm={6} xs={9}> <Feed /></Grid>
         <XSGrid item sm={3} > <RightBar/></XSGrid>
       </Grid>
-
+      
       <AddIcon/>
+      
+      
 
     
   </>
